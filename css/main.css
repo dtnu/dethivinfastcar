@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+	font-family: 'Lato', sans-serif; font-size: 16px; color: #666666; margin: 0
+}
+.top-bar{
+	height: 70px;width:100%; border-bottom: 1px solid #E1E1E1; line-height: 60px; color:#C7C8CD; right: 0; top: 0; background-color: black
+}
+.items{
+	padding-top: 8px
+}
+.logo{
+	padding-top: 13px; padding-left: 18px
+}
+header{
+	height: 80px; width: 100%; position: absolute; left: 0; top: 70px; z-index: 100 
+}
+
+.logo a{
+	text-decoration: none; font-size: 30px; color: #E8CC38; font-weight: bold
+}
+.logo a:hover{
+	color: #F2890B
+}
+.menu{
+	padding-top: 20px
+}
+.menu ul{
+	margin:0; padding:0; list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 25px; text-decoration: none; font-size: 17px; text-transform: uppercase; color: white
+}
+.menu ul li a:hover{
+	color: darkorange
+}
+.menu ul li{ 
+	position: relative
+}
+.menu ul .sub-menu{ /*Lệnh cho box con ul trong li menu*/
+	position: absolute; width: 180px; background-color: rgba(0,0,0,0.40); left: 25px; top: 150%; display: flex; flex-direction: column; display: none
+}
+.menu ul .sub-menu li a{
+	display: block
+}
+.menu ul .sub-menu li{
+	border-bottom: 1px solid #E7E7E7
+}
+.menu ul li:hover .sub-menu {
+	display: block 
+}
+.menu .sub-menu .sub-menu2{
+	position: absolute; left: 100.8%; top: 0; background-color: rgba(0,0,0,0.40); display: flex; flex-direction: column; width: 170px; opacity: 0
+}
+.menu .sub-menu li:hover .sub-menu2{
+	opacity: 1
+}
+.box-cha{
+	position: relative;left: 0; top: 0; width: 100%; min-height: 500px
+}
+.tieu-de {
+	padding: 15px; font-size: 20px;color: black; border: 3px solid black
+}
+.den {
+	color: black
+}
+.vien-xam{
+	width: 100%;text-align: center; border: 1.8px solid gray;padding: 20px;
+}
+.vien-xam a{
+	text-decoration: none; color:#666666
+}
+.vien-xam a:hover {
+	color: darkorange
+}
+.tieu-de-nho{
+	font-size: 18px; color: black
+}
+#models{
+	height: 950px;width:100%; margin: 30px 0; line-height: 60px; color:#C7C8CD; right: 0; top: 0; background-color:gainsboro
+}
+.gia{
+	color:#CB7901 ; font-weight: bold
+}
+.gach{
+	color: black; font-size: 15px
+}
+.ten-xe{
+	padding: 0; margin: 0; font-size: 28px; color: black; font-weight: bold
+}
+#models .vien-bo{
+	width: 100%;text-align: center; border: 1.3px solid black;padding: 20PX 20PX 0PX 20px;
+}
+#models .vien-bo a{
+	text-decoration: none; color:black; font-size: 15px
+}
+#models .vien-bo a:hover {
+	color:#C26601
+}
+.tieu-de-e{
+	font-size: 50PX
+}
+#contact{
+	width: 100%;min-height: 400px;background-image: url("../image/bgcontact.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center center
+}
+.box{
+	padding: 40px; box-shadow: 5px 5px 5px gray; border: 1px solid #B8B3B3
+}
+.form-control{
+	padding: 10px;width: 100%; margin-bottom: 15px
+}
+.tieu-de-c {
+	padding: 15px; font-size: 20px;color: white; border: 3px solid white
+}
